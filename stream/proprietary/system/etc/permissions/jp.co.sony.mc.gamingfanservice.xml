@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /product -->
+<permissions>
+    <privapp-permissions package="jp.co.sony.mc.gamingfanservice">
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+        <permission name="android.permission.MANAGE_USB" />
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+        <permission name="jp.co.sony.mc.gamingfanservice.permission.USE_FAN_ACCESSORY" />
+        <permission name="jp.co.sony.mc.gamingfanservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    </privapp-permissions>
+</permissions>
+

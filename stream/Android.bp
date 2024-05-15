@@ -1,0 +1,43 @@
+soong_namespace {
+	imports: [
+	],
+}
+
+android_app_import {
+	name: "GamingAccessorySettings",
+	owner: "sony",
+	apk: "proprietary/system/priv-app/GamingAccessorySettings/GamingAccessorySettings.apk",
+	certificate: "platform",
+   	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "GamingFanService",
+	owner: "sony",
+	apk: "proprietary/system/priv-app/GamingFanService/GamingFanService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "ThermalFanService",
+	owner: "sony",
+	apk: "proprietary/system/priv-app/ThermalFanService/ThermalFanService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "com.sonymobile.gesdklibrary",
+	owner: "sony",
+	jars: ["proprietary/system/framework/com.sonymobile.gesdklibrary.jar"],
+}

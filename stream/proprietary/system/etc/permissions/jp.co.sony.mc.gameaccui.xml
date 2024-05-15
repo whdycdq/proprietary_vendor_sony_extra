@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /product -->
+<permissions>
+    <privapp-permissions package="jp.co.sony.mc.gameaccui">
+        <permission name="jp.co.sony.mc.gamingfanservice.permission.USE_FAN_ACCESSORY" />
+        <permission name="com.sonymobile.gameenhancer.provider.permission.READ_STATUS" />
+        <permission name="com.sonymobile.gameenhancer.permission.DETECT_KEY_EVENT" />
+        <permission name="com.sonymobile.gameenhancer.permission.BIND_MODULE" />
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+        <permission name="android.permission.ACCESS_NETWORK_STATE" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.UNLIMITED_TOASTS" />
+        <permission name="android.permission.QUERY_ALL_PACKAGES" />
+        <permission name="android.permission.POST_NOTIFICATIONS" />
+    </privapp-permissions>
+</permissions>
+
