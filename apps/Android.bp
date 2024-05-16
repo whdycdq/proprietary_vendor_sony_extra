@@ -18,7 +18,7 @@ soong_namespace {
 android_app_import {
 	name: "ExternalMonitor",
 	owner: "sony",
-	apk: "ExternalMonitor/ExternalMonitor.apk",
+	apk: "ExternalMonitor/ExtMonitorApp.apk",
 	presigned: true,
         preprocessed: true,
 	dex_preopt: {
