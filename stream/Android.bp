@@ -40,4 +40,5 @@ dex_import {
 	name: "com.sonymobile.gesdklibrary",
 	owner: "sony",
 	jars: ["proprietary/system/framework/com.sonymobile.gesdklibrary.jar"],
+	system_ext_specific: true,
 }
