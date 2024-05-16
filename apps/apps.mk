@@ -18,7 +18,11 @@
 PRODUCT_SOONG_NAMESPACES += \
    vendor/sony/extra/apps
 
+PRODUCT_COPY_FILES += \
+	$(LOCAL_STREAM)/permissions/com.sonymobile.extmonitorapp.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.extmonitorapp.xml \
+   $(LOCAL_STREAM)/permissions/jp.co.sony.mc.usbextoutaudio.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sony.mc.usbextoutaudio.xml
 # Sony Apps
 PRODUCT_PACKAGES += \
+    SomcMediaExtensionProvider \
     ExternalMonitor \
     UsbExtOutAudio

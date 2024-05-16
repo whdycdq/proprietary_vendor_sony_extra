@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- for the partition: /product -->
+<permissions>
+    <privapp-permissions package="jp.co.sony.mc.usbextoutaudio">
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
+    </privapp-permissions>
+</permissions>
+
